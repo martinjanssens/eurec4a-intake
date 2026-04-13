@@ -3,9 +3,16 @@ plugins:
      - module: intake_xarray
 
 sources:
-  unifiedmodel:
+  unifiedmodel_ref:
     args:
       path: "{{CATALOG_DIR}}/unified-model.yaml"
     description: "UK Met Office Unified Model"
+    driver: yaml_file_cat
+    metadata: {}
+
+  unifiedmodel_cdnc70:
+    args:
+      path: "{{CATALOG_DIR}}/unified-model-cdnc70.yaml"
+    description: "UK Met Office Unified Model CDNC70"
     driver: yaml_file_cat
     metadata: {}
