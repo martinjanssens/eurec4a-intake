@@ -5,7 +5,7 @@ plugins:
 sources:
   unifiedmodel:
     args:
-      path: "{{CATALOG_DIR}}/UnifiedModel.yaml"
+      path: "{{CATALOG_DIR}}/unified-model.yaml"
     description: "UK Met Office Unified Model"
     driver: yaml_file_cat
     metadata: {}
