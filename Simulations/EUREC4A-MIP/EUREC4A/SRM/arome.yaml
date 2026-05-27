@@ -29,7 +29,7 @@ sources:
       consolidated: true
 
   cross:
-    description: Table 3 - 2D cross-sections at pressure levels (hourly; 6 levels: 1000/950/900/850/700/500 hPa)
+    description: "Table 3 - 2D cross-sections at pressure levels (hourly; 6 levels: 1000/950/900/850/700/500 hPa)"
     driver: zarr
     args:
       urlpath: https://swift.dkrz.de/v1/dkrz_0913c8f3-e7b6-4f94-9221-06880d4ccfea/AROME_CTL/AROME_CTL_TBL3.zarr
